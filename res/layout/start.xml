@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center">
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:id="@+id/ImageView01" android:src="@drawable/logo" android:scaleType="matrix" android:layout_width="wrap_content" android:layout_height="80dip"></ImageView><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center"><TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:text="玩家数量" android:layout_width="wrap_content"></TextView>
+<Spinner android:layout_height="wrap_content" android:id="@+id/players" android:entries="@array/players_list" android:layout_width="wrap_content"></Spinner>
+</TableRow>
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="初始筹码"></TextView>
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/bet_list" android:id="@+id/bet"></Spinner>
+
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="庄家筹码"></TextView>
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/dealer_bet_list" android:id="@+id/dealer_bet"></Spinner>
+</TableRow>
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="牌组数量"></TextView>
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/decks_list" android:id="@+id/decks"></Spinner>
+</TableRow><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开始新游戏" android:layout_gravity="center_horizontal" android:id="@+id/start"></Button>
+
+
+</TableLayout>
+
+
+</LinearLayout>

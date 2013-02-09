@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<string-array name="players_list"><item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+</string-array>
+<string-array name="bet_list"><item>500</item>
+<item>1000</item>
+<item>5000</item>
+<item>10000</item>
+</string-array>
+
+<string-array name="dealer_bet_list"><item>无限</item>
+<item>5000</item>
+<item>10000</item>
+<item>50000</item>
+<item>100000</item>
+</string-array>
+<string-array name="decks_list"><item>1</item>
+<item>2</item>
+<item>4</item>
+<item>8</item>
+</string-array>
+</resources>
